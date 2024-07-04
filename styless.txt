@@ -1,0 +1,67 @@
+body, html {
+    background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.jpmorgan.com%2Finsights%2Finvesting%2Finvestment-strategy%2F4-key-actions-to-consider-for-your-portfolio-for-whats-to-come-this-year&psig=AOvVaw27LXB2rn2CHFzD8j2o9GmJ&ust=1720176125208000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCKCp3dCZjYcDFQAAAAAdAAAAABBA);
+    margin: 0;
+    padding:`` 0;
+    font-family: Arial, sans-serif;
+}
+
+#navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+}
+
+#navbar ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#navbar ul li {
+    margin: 0 15px;
+}
+
+#navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#welcome-section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+#projects {
+    padding: 50px 20px;
+    background: #fff;
+}
+
+.project-tile {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+#contact {
+    padding: 50px 20px;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    #navbar ul {
+        flex-direction: column;
+    }
+
+    .project-tile {
+        margin: 10px 0;
+    }
+}
